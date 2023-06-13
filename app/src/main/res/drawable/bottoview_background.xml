@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Body shape -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Sleeves -->
+    <corners
+        android:topLeftRadius="0dp"
+        android:bottomLeftRadius="0dp"
+        android:topRightRadius="8dp"
+        android:bottomRightRadius="8dp" />
+    <size android:width="60dp" android:height="100dp" />
+    <solid android:color="#FFFFFF" />
+
+    <!-- Neck -->
+    <corners
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp" />
+    <size android:width="40dp" android:height="20dp" />
+    <solid android:color="#FFFFFF" />
+
+</shape>
